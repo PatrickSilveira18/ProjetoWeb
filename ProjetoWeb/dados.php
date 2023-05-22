@@ -2,17 +2,17 @@
     $produtos = [
         [
             "id" => 1,
-            "nome" => 
-            "imagem" =>
-            "preco" =>
-            "descricao" =>
+            "nome" => "Celular",
+            "imagem" => "",
+            "preco" => "",
+            "descricao" => "",
         ],
         [
             "id" => 2,
-            "nome" => 
-            "imagem" =>
-            "preco" =>
-            "descricao" => 
+            "nome" => "",
+            "imagem" => "",
+            "preco" => "",
+            "descricao" => "", 
         ],
 
     ]
