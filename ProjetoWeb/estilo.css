@@ -1,0 +1,123 @@
+body{
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 100vh;
+    height: 5000px;
+    background-image: linear-gradient(to right, gray , white)
+}
+
+header{
+    background-color: #6f6f6f;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 2fr;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+
+}
+
+.menu{
+    display: flex;
+    grid-column: 1 / 4;
+    height: 50px;
+    background-color: #6f6f6f;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a:hover{
+    font-size: 18px;
+    transition: font-size  0.3s ease;
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 36px;
+
+}
+
+
+.busca input{
+    color:#ffffff;
+    width: 60%;
+    height: 50px;
+    background-color: #434343;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+
+.busca input{
+    color:#ffffff;
+    width: 60%;
+    height: 60px;
+    background-color: #434343;
+    border: none;
+    border-radius: 10px 0 0 10px;
+    transform: skewX(-20deg);
+}
+
+.busca input::placeholder{
+    color: #6f6f6f;
+    font-weight: bold;
+}
+
+.busca input:focus{
+  outline: none;
+}
+.botao{
+    color:#6f6f6f;
+    border: none;
+    background-color: #434343;
+    width: 45%;
+    height: 50px;
+    transform: skewX(-20deg);
+}
+.busca button{
+    height: 60px;
+    color:#6f6f6f;
+    border: none;
+    width: 30%;
+    background-color: #434343;
+    border-radius: 0 10px 10px 0;
+    transform: skewX(-20deg);
+}
+
+.busca img{
+    width: 16px;
+    height: 16px;
+}
+
+.busca button:hover, .busca img{
+    transition: filter 0.3s ease;
+    filter: invert(100%);
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 480px;
+}
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 280px;
+    height: 346px;
+    border-radius: 25px;
+    box-shadow: 0 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.produto img{
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
