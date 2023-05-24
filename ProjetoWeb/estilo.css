@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Inter:wght@400;700&display=swap');
+
 body{
     margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Inria Sans', sans-serif;
     min-width: 100vh;
     height: 5000px;
     background-image: linear-gradient(to right, gray , white)
@@ -96,6 +98,7 @@ header a{
     transition: filter 0.3s ease;
     filter: invert(100%);
 }
+
 section{
     display: flex;
     flex-direction: row;
@@ -103,21 +106,93 @@ section{
     align-items: center;
     height: 480px;
 }
+
 .produto{
+    width: 233px;
+    height: 379px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
     background-color: white;
-    width: 280px;
-    height: 346px;
-    border-radius: 25px;
+    border-radius: 5px;
     box-shadow: 0 8px 4px rgba(0, 0, 0, 0.2);
 }
 
 .produto img{
-    max-width: 250px;
-    max-height: 250px;
-    width: auto;
+    width: 80%;
     height: auto;
+}
+
+.banner{
+    margin-top: 0px;
+    height: 399px;
+    background: #FFFEFE;
+}
+
+.button{
+    margin: 15px 0px 0px 50px;
+    width: 132px;
+    height: 46px;
+    background: #00B81D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.image{
+    position: absolute;
+    left: 65%;
+    top: 220px;
+    width: 35%;
+    height: 340px;
+    background: url(eletro.png), #6A78F6;
+    border-radius: 216px 0 0 216px;
+    background-size: 120%;
+    background-repeat: no-repeat;
+  
+}
+
+.banner > h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.58em;
+    padding: 50px 0px 0px 50px;
+}
+
+.banner > h1{
+    width: 50%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 65px;
+    letter-spacing: 0.115em;
+    padding: 0px 0px 15px 50px;
+}
+
+.info > *{
+    margin: 0;
+    margin-left: -10%;
+}
+
+.info > h3{
+    font-size: 32px;
+}
+
+.info > p{
+    font-size: 20px;   
+    color: #6A78F6;
+}
+
+.nome{
+    visibility: hidden;
 }

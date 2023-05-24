@@ -38,26 +38,40 @@
         </nav>
         </div>
     </header>
-
+    <div class="banner">
+        <h2>SELEÇÃO DE PRODUTOS</h2>
+        <h1>OS MELHORES ELETRODOMÉSTICOS</h1>
+        <div class="button">Confira</div>
+        <div class="image"></div>
+    </div>
     <section>
             <div class="produto">
                 <img src="img/produto/1_produto_blusa.png" alt="Produto - Camisa Vasco Masculina Building Licenciada Casual">
-                <p>R$112,71</p>
-                <p>FRETE GRÁTIS</p>
+                <div class="info">
+                    <h3>R$112,71</h3>
+                    <p>10x 11,27 sem juros</p>
+                    <p>FRETE GRÁTIS</p>
+                </div>
+                <div class="nome">Camisa do Vasco</div>
             </div>
 
             <div class="produto">
                 <img src="img/produto/2_produto_playstation2.png" alt="Produto - Camisa Vasco Masculina Building Licenciada Casual">
-                <p>R$112,71</p>
-                <p>FRETE GRÁTIS</p>
+                <div class="info">
+                    <h3>R$112,71</h3>
+                    <p>10x 11,27 sem juros</p>
+                    <p>FRETE GRÁTIS</p>
+                </div>
+                <div class="nome">PlayStation 2</div>
             </div>
 
             <div class="produto">
 
             </div>
 
-            <div class="produto">
-                
+            <div class="produto">                
+            </div>
+            <div class="produto">                
             </div>
     </section>
     <footer>
