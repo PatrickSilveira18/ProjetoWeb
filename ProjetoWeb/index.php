@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
@@ -38,26 +38,40 @@
         </nav>
         </div>
     </header>
-
+    <div class="banner">
+        <h2>SELEÇÃO DE PRODUTOS</h2>
+        <h1>OS MELHORES ELETRODOMÉSTICOS</h1>
+        <div class="button">Confira</div>
+        <div class="image"></div>
+    </div>
     <section>
             <div class="produto">
                 <img src="img/produto/1_produto_blusa.png" alt="Produto - Camisa Vasco Masculina Building Licenciada Casual">
-                <p>R$112,71</p>
-                <p>FRETE GRÁTIS</p>
+                <div class="info">
+                    <h3>R$112,71</h3>
+                    <p>10x 11,27 sem juros</p>
+                    <p>FRETE GRÁTIS</p>
+                </div>
+                <div class="nome">Camisa do Vasco</div>
             </div>
 
             <div class="produto">
                 <img src="img/produto/2_produto_playstation2.png" alt="Produto - Camisa Vasco Masculina Building Licenciada Casual">
-                <p>R$112,71</p>
-                <p>FRETE GRÁTIS</p>
+                <div class="info">
+                    <h3>R$112,71</h3>
+                    <p>10x 11,27 sem juros</p>
+                    <p>FRETE GRÁTIS</p>
+                </div>
+                <div class="nome">PlayStation 2</div>
             </div>
 
             <div class="produto">
 
             </div>
 
-            <div class="produto">
-                
+            <div class="produto">                
+            </div>
+            <div class="produto">                
             </div>
     </section>
     <footer>
