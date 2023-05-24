@@ -3,7 +3,7 @@
         [
             "id" => 1,
             "nome" => "Samsung Galaxy A54", 
-            "imagem" => "",
+            "imagem" => "https://http2.mlstatic.com/D_Q_NP_810114-MLU69495828031_052023-R.webp",
             "preco" => "R$ 2.179",
             "descricao" => "Compatível com redes 5G.\n
             Tela Super AMOLED de 6.4 polegadas.\n
@@ -18,7 +18,7 @@
         [
             "id" => 2,
             "nome" => "Smart TV LG Ai Thinq", 
-            "imagem" => "",
+            "imagem" => "https://http2.mlstatic.com/D_Q_NP_918680-MLA51853003218_102022-R.webp",
             "preco" => "R$ 2.229",
             "descricao" => "4K.\n
             Tecnologia HDR para melhor qualidade de imagem.\n
@@ -33,7 +33,7 @@
         [
             "id" => 3,
             "nome" => "Monitor Gamer LG 22mp410-b", 
-            "imagem" => "",
+            "imagem" => "https://http2.mlstatic.com/D_Q_NP_611126-MLA52286550419_112022-R.webp",
             "preco" => "R$ 565",
             "descricao" => "3D.
             Tela anti-reflexo.\n
@@ -44,7 +44,7 @@
         [
             "id" => 4,
             "nome" => "Notebook Acer Aspire 3", 
-            "imagem" => "",
+            "imagem" => "https://http2.mlstatic.com/D_Q_NP_806577-MLA50480925295_062022-R.webp",
             "preco" => "R$ 1.789",
             "descricao" => "Processador Intel Celeron.\n
             Memória RAM de 4GB.\n
@@ -56,7 +56,7 @@
         [
             "id" => 5,
             "nome" => "Micro-ondas Philco PMO23EB", 
-            "imagem" => "",
+            "imagem" => "https://http2.mlstatic.com/D_Q_NP_921437-MLA52179935853_102022-R.webp",
             "preco" => "R$ 649",
             "descricao" => "Potência de 1100w.\nn
             Display digital.\n
@@ -69,7 +69,7 @@
         [
             "id" => 6,
             "nome" => "Tablet Samsung Galaxy Tab A A8", 
-            "imagem" => "",
+            "imagem" => "https://http2.mlstatic.com/D_Q_NP_611601-MLU69483886342_052023-R.webp",
             "preco" => "R$ 1.379",
             "descricao" => "Com processador Octa-Core de 2GHz.\n
             Resolução da tela de 1920x1200px.\n
@@ -81,7 +81,7 @@
         [
             "id" => 7,
             "nome" => "Camisa Vasco Da Gama", 
-            "imagem" => "",
+            "imagem" => "https://http2.mlstatic.com/D_Q_NP_951208-MLB53266848035_012023-R.webp",
             "preco" => "R$ 199,99",
             "descricao" => "Na cor Bege.\n
             Ano 2023.\n
@@ -91,7 +91,7 @@
         [
             "id" => 8,
             "nome" => "Bicicleta Aro 29 Gts Alumínio", 
-            "imagem" => "",
+            "imagem" => "https://http2.mlstatic.com/D_Q_NP_764885-MLA48451995923_122021-R.webp",
             "preco" => "R$ 890,10",
             "descricao" => "Aro 29.\n
             24 marchas.\n
@@ -101,7 +101,7 @@
         [
             "id" => 9,
             "nome" => "Fritadeira Elétrica Air Fryer Gaabor", 
-            "imagem" => "",
+            "imagem" => "https://http2.mlstatic.com/D_Q_NP_661613-MLB54130811253_032023-R.webp",
             "preco" => "R$ 289",
             "descricao" => "Potência: 1200W.\n
             Contém 1 cesta removível.\n
@@ -112,7 +112,7 @@
         [
             "id" => 10,
             "nome" => "Purificador Ibbl E-due Equilibrium", 
-            "imagem" => "",
+            "imagem" => "https://http2.mlstatic.com/D_Q_NP_634880-MLB69317103264_052023-R.webp",
             "preco" => "R$ 519,90",
             "descricao" => "Refrigeração Eletrônica.\n
             Eficiência Bacteriológica.\n", 
@@ -120,7 +120,7 @@
         [
             "id" => 11,
             "nome" => "Impressora Epson EcoTank L3250", 
-            "imagem" => "",
+            "imagem" => "https://http2.mlstatic.com/D_Q_NP_975413-MLA48196101294_112021-R.webp",
             "preco" => "R$ 1.117",
             "descricao" => "Funcionamento por controle de voz.\n
             Possibilidade de controlar a partir de dispositivos movéis\n
@@ -130,7 +130,7 @@
         [
             "id" => 12,
             "nome" => "Câmera de segurança Intelbras iM3", 
-            "imagem" => "",
+            "imagem" => "https://http2.mlstatic.com/D_Q_NP_802400-MLA52333985461_112022-R.webp",
             "preco" => "R$ 279,90",
             "descricao" => "Definição da câmera: 2MP.\n
             Capacidade de armazenamento de 256GB.\n
