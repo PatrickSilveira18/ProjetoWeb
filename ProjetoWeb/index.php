@@ -33,12 +33,12 @@
         </div>
         <div class="menu">
         <nav>
-            <a href="">Categorias</a>
-            <a href="">Ofertas do dia</a>
-            <a href="">Histórico</a>
-            <a href="">Moda</a>
-            <a href="">Vender</a>
-            <a href="">Contato</a>
+            <a href="produto.html">Categorias</a>
+            <a href="produto.html">Ofertas do dia</a>
+            <a href="produto.html">Histórico</a>
+            <a href="produto.html">Moda</a>
+            <a href="produto.html">Vender</a>
+            <a href="produto.html">Contato</a>
         </nav>
         </div>
     </header>
