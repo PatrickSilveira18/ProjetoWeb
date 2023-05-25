@@ -55,7 +55,7 @@
                 <div class="nome"><?=$produto["nome"]?></div>
                 <div class="info">
                     <h3><?=$produto["preco"]?></h3>
-                    <p>10x 11,27 sem juros</p>
+                    <p><?=$produto["parcelado"]?></p>
                     <p>FRETE GRÁTIS</p>
                 </div>
                 
