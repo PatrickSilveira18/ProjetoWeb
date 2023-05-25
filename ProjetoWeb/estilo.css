@@ -104,19 +104,24 @@ section{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     height: 480px;
 }
 
 .produto{
     width: 233px;
-    height: 379px;
+    height: 350px;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 8px 4px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
 }
 
 .produto img{
@@ -185,6 +190,7 @@ section{
 }
 
 .info > h3{
+    color: black;
     font-size: 32px;
 }
 
@@ -194,7 +200,11 @@ section{
 }
 
 .nome{
-    visibility: hidden;
+    color: #434343;
+    text-align: center;
+    visibility: visible;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 main{
@@ -203,7 +213,7 @@ main{
 }
 
 #anuncio{
-    padding: 15%;
+    margin-top: 10%;
     background: #ffffff;
     width: 80%;
     height: 800px;
@@ -224,5 +234,19 @@ main{
 }
 
 .info-anuncio{
-    margin-top: 500px;
+    margin-top: 3%;
+}
+
+.img{
+    display: flex;
+    height: 60%;
+    justify-content: center;
+}
+
+.img > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
 }

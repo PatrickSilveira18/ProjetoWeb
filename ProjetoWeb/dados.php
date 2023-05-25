@@ -3,7 +3,7 @@
         [
             "id" => 1,
             "nome" => "Samsung Galaxy A54", 
-            "imagem" => "https://http2.mlstatic.com/D_Q_NP_810114-MLU69495828031_052023-R.webp",
+            "imagem" => "https://http2.mlstatic.com/D_NQ_NP_828877-MLU54983902171_052023-V.webp",
             "preco" => "R$ 2.179",
             "descricao" => "Compatível com redes 5G.\n
             Tela Super AMOLED de 6.4 polegadas.\n
@@ -18,7 +18,7 @@
         [
             "id" => 2,
             "nome" => "Smart TV LG Ai Thinq", 
-            "imagem" => "https://http2.mlstatic.com/D_Q_NP_918680-MLA51853003218_102022-R.webp",
+            "imagem" => "https://http2.mlstatic.com/D_NQ_NP_2X_918680-MLA51853003218_102022-F.webp",
             "preco" => "R$ 2.229",
             "descricao" => "4K.\n
             Tecnologia HDR para melhor qualidade de imagem.\n
@@ -33,7 +33,7 @@
         [
             "id" => 3,
             "nome" => "Monitor Gamer LG 22mp410-b", 
-            "imagem" => "https://http2.mlstatic.com/D_Q_NP_611126-MLA52286550419_112022-R.webp",
+            "imagem" => "https://http2.mlstatic.com/D_NQ_NP_2X_611126-MLA52286550419_112022-F.webp",
             "preco" => "R$ 565",
             "descricao" => "3D.
             Tela anti-reflexo.\n
