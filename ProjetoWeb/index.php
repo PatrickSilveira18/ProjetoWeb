@@ -1,3 +1,7 @@
+<?php
+        require "dados.php";
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -45,6 +49,22 @@
         <div class="image"></div>
     </div>
     <section>
+
+            <?php foreach($produtos as $i => $produto){ ?>
+            <div class="produto">
+                <a href="produto.php?i=<?=$i?>">
+                <img src="<?=$produto["imagem"]?>" alt="<?=$produto["nome"]?>">
+                <div class="info">
+                    <h3><?=$produto["preco"]?></h3>
+                    <p>10x 11,27 sem juros</p>
+                    <p>FRETE GRÁTIS</p>
+                </div>
+                <div class="nome"><?=$produto["nome"]?></div>
+                </a>
+            </div>
+            <?php } ?>
+
+
             <div class="produto">
                 <img src="img/produto/1_produto_blusa.png" alt="Produto - Camisa Vasco Masculina Building Licenciada Casual">
                 <div class="info">
@@ -63,10 +83,6 @@
                     <p>FRETE GRÁTIS</p>
                 </div>
                 <div class="nome">PlayStation 2</div>
-            </div>
-
-            <div class="produto">
-
             </div>
 
             <div class="produto">                
