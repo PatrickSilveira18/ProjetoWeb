@@ -196,3 +196,28 @@ section{
 .nome{
     visibility: hidden;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#anuncio{
+    margin-top: 10%;
+    background: #ffffff;
+    width: 80%;
+    height: 800px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.imagens{
+    margin-left: 5%;
+    margin-right: 10%;
+    width: 25%;
+}
+
+.imagens > img{
+    position: sticky;
+    top: 0;
+}
