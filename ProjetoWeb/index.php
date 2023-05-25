@@ -29,7 +29,7 @@
         </div>
         <div class="menu">
         <nav>
-            <a href="produto.html">Categorias</a>
+            <a href="prod.php?i=1">Categorias</a>
             <a href="produto.html">Ofertas do dia</a>
             <a href="produto.html">Histórico</a>
             <a href="produto.html">Moda</a>

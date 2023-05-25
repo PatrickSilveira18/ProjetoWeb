@@ -203,7 +203,7 @@ main{
 }
 
 #anuncio{
-    margin-top: 10%;
+    padding: 15%;
     background: #ffffff;
     width: 80%;
     height: 800px;
@@ -220,4 +220,9 @@ main{
 .imagens > img{
     position: sticky;
     top: 0;
+    width: 200px;
+}
+
+.info-anuncio{
+    margin-top: 500px;
 }
