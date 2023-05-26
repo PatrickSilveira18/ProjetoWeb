@@ -50,21 +50,32 @@
     </div>
     <section>
             <?php foreach($produtos as $i => $produto){ ?>
-            <a href="produto.php?i=<?=$i?>" class="produto" onmouseover="">
-                <div class="img"><img src="<?=$produto["imagem"]?>" alt="<?=$produto["nome"]?>"></div>
-                <div class="nome"><?=$produto["nome"]?></div>
-                <div class="info">
-                    <h3><?=$produto["preco"]?></h3>
-                    <p><?=$produto["parcelado"]?></p>
-                    <p>FRETE GRÁTIS</p>
-                </div>
-                
-            </a>
+                <a href="produto.php?i=<?=$i?>" class="produto" onmouseover="">
+                    <div class="img"><img src="<?=$produto["imagem"]?>" alt="<?=$produto["nome"]?>"></div>
+                    <div class="nome"><?=$produto["nome"]?></div>
+                    <div class="info">
+                        <h3><?=$produto["preco"]?></h3>
+                        <p><?=$produto["parcelado"]?></p>
+                        <p>FRETE GRÁTIS</p>
+                    </div>
+                </a>
             <?php } ?>
 
     </section>
     <footer>
-
+        <div> 
+        <img src="img/logo.png" alt="Logo Souls Store">
+        </div>
+        <div class="footer-container">
+      <p>© 2023 Souls Store. Todos os direitos reservados.</p>
+      <nav>
+        <ul>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Termos de Uso</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
     </footer>
 </body>
 </html>

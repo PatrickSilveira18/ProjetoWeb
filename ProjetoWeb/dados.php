@@ -63,7 +63,7 @@
             "imagem" => "https://http2.mlstatic.com/D_Q_NP_921437-MLA52179935853_102022-R.webp",
             "preco" => "R$ 649",
             "parcelado" => "10x R$ 64,90 sem juros",
-            "descricao" => "Potência de 1100w.\nn
+            "descricao" => "Potência de 1100w.\n
             Display digital.\n
             Dimensões: 45cm de largura, 26.2cm de altura, 35.3cm de profundidade.\n
             Possui bloqueio de segurança.\n
