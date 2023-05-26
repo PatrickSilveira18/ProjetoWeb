@@ -68,5 +68,20 @@
         }
         ?>    
     </main>
+    <footer>
+        <div> 
+        <img src="img/logo.png" alt="Logo Souls Store">
+        </div>
+        <div class="footer-container">
+      <p>© 2023 Souls Store. Todos os direitos reservados.</p>
+      <nav>
+        <ul>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Termos de Uso</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+    </footer>
 </body>
 </html>
