@@ -57,10 +57,14 @@
                     <img src="<?=$produto["imagem"]?>" alt="<?=$produto["nome"]?>">
                 </div>
                 <div class="info-anuncio">
-                    <h3><?=$produto["nome"]?></h3>
-                    <h4><?=$produto["preco"]?></h4>
+                    <h2><?=$produto["nome"]?></h2>
+                    <h3><?=$produto["preco"]?></h3>
                     <p><?=$produto["descricao"]?></p>
-                </div>
+                    <div class="buttons-container">
+                        <button class="button-compra">Comprar</button>
+                        <button class="button-carrinho">Adicionar ao Carrinho</button>
+                    </div>
+                </div>  
         </div>
         <?php 
         }else{
