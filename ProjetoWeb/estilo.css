@@ -4,8 +4,8 @@ body{
     margin: 0 auto;
     font-family: 'Inria Sans', sans-serif;
     min-width: 100vh;
-    height: 5000px;
-    background-image: linear-gradient(to right, gray , white)
+    height: 1000px;
+    background-image: linear-gradient(to right, #b6b4b4 , #dad5d5)
 }
 
 header{
@@ -220,12 +220,13 @@ main{
     height: 800px;
     border-radius: 5px;
     display: flex;
+    margin-bottom: 10%
 }
 
 .imagens{
     margin-left: 5%;
     margin-right: 10%;
-    width: 25%;
+    width: 45%;
 }
 
 .imagens > img{
@@ -235,7 +236,10 @@ main{
 }
 
 .info-anuncio{
-    margin-top: 3%;
+    margin-top: 25%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .img{
