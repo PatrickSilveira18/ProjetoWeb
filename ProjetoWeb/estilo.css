@@ -224,13 +224,14 @@ main{
 }
 
 .imagens{
-    margin-left: 5%;
-    margin-right: 10%;
-    width: 45%;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 25%;
+    width: 40%;
 }
 
 .imagens > img{
-    position: sticky;
+    
     top: 0;
     width: 200px;
 }
